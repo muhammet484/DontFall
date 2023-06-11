@@ -1,0 +1,4 @@
+Background color is:
+C6D8F5
+
+blue

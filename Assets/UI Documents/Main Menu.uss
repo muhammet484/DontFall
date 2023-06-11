@@ -1,0 +1,23 @@
+:root {
+    --UpAndDownMargin: 5px;
+}
+
+.Menu-Button {
+    font-size: 30px;
+    margin-top: var(--UpAndDownMargin);
+    margin-bottom: var(--UpAndDownMargin);
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.SettingsElement {
+    font-size: 20px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
