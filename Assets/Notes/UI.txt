@@ -1,0 +1,9 @@
+başlangıç menüsü (Ana menü)
+
+Oyun içi bekleme menüsü
+
+kaybettin yazısı
+
+kazandın yazısı
+
+her bölüm bittiğinde kazandın yazısı çıkar ve 3 saniye sonra diğer bölüme geçilir

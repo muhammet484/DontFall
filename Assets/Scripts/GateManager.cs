@@ -23,7 +23,17 @@ public class GateManager : MonoBehaviour
         }
         else
         {
-            GameManager.Instance.SceneController.OpenSceneAtIndex(SceneIndex);
+            foreach(var act in GameManager.Instance.OnPlayerWinLevel)
+            {
+                act();
+            }
+
+            float delay = GameManager.Instance.SceneTransitionDelay;
+            Invoke(nameof(OpenTheScene), delay);
         }
+    }
+    void OpenTheScene()
+    {
+        GameManager.Instance.SceneController.OpenSceneAtIndex(SceneIndex);
     }
 }

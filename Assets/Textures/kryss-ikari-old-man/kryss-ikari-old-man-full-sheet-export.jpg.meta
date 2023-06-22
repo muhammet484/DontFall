@@ -1,0 +1,1530 @@
+fileFormatVersion: 2
+guid: 970503780994bfd449fa2e72116f1a8a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f7f4acf9e4e2345960906b43d32ed3
+      internalID: 1337917515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_1
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7ce1ceab7cf33459b7f15652f5fe9f
+      internalID: -1826980873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_2
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ad68fbbb15d104a81d8c69232a1e9a
+      internalID: 715104607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_3
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9ed9cbff3b0ea4eae4fd51e7990baf
+      internalID: -1846322603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_4
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ed4de37d4f1f45b6f05812f2d33b7
+      internalID: -1100837611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_5
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd52907638033c4184b99cf32170362
+      internalID: 1009203903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_6
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f014e78f3363afd4899b09fc38e89bb3
+      internalID: -1847141749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_7
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1680
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7024a21750337d04f86a8bc108809c27
+      internalID: 153243701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13884df8cac2a874dae976bfa61ade3a
+      internalID: 2011275546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8116c43f99dec84fbce74cab5c88559
+      internalID: 650071596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_10
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ae8437fb1b59b47ab30b0f8be3faab
+      internalID: 1588090250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f36237088874a943859c946f69829fa
+      internalID: 59802213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_12
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7413a570354c89545b273960d0f5b35b
+      internalID: -1785392140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_13
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b118fd523499524eb32c14bb22247c8
+      internalID: 33929223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_14
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16ee4bc6b8c701489cdc81848a8e486
+      internalID: 1856051992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_15
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1440
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da20d3c4e8ea59342aac310db624e10b
+      internalID: -198085618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae17bc234176ed45b174862867f0186
+      internalID: 2044708011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_17
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057dae05eb063c643b99b26777b29984
+      internalID: -905022762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_18
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2000c7b26f96447bca90c89ca2fd3d
+      internalID: -2122856030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_19
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63e7e7fa696f5340b4539dc3493dc50
+      internalID: 409035195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_20
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17409d6b01fea9e46b19d2dd14ec39bb
+      internalID: -107234638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_21
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618347f24c6f6a143afc5f82cd912611
+      internalID: 1540630177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_22
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b7837cf3f782c4e900d5c851e12790
+      internalID: 1819142576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_23
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1200
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3086e61f5e67a24db2e156f32458948
+      internalID: 824080602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ca4b588525214ab1df9d8dd7ab739
+      internalID: 1821220798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b9d486c8ab50442a0f43cfffacbb5c
+      internalID: -1787062404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_26
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2ff8d67197dee4f8e779c58e9b47c0
+      internalID: 1229405737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_27
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e212c3eb26daa44487849479cae8078
+      internalID: -1174913554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_28
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399d7f1858033f341b6e6e39ed074707
+      internalID: 1589003361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_29
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e242ade2962b58b4bb1f177806676d9f
+      internalID: -918613752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_30
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17918420378072346aa52f4220665873
+      internalID: -1012734958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_31
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 960
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ae8cc825f0f3d42b9684fe5d7ce839
+      internalID: 2021213517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb76921ab75d5794c9599704059109a6
+      internalID: 173906776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_33
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65e0c17a78b2894b913fb77534ae89a
+      internalID: -1027525490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_34
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9214549d088d5448b981e2b3fae2e1
+      internalID: -1709201512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_35
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f4c48bb90bb0546a68ad170b6d9f4c
+      internalID: -210145977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_36
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023815dde223a70409e9827f28a53975
+      internalID: 1147632620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_37
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030c6241736225442b0811410b49d99d
+      internalID: 1668332709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_38
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c34deb5437a7b346ad53f9ce4864e4c
+      internalID: -1793069805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_39
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 720
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72051fed4bfcc5c4782732ce969ba876
+      internalID: -1047156771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b8c0ee4dc8f2d45a054d85b9417156
+      internalID: 424009967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_41
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1732d2af023b3db4c9c915be60c9a659
+      internalID: 1761314215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_42
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71540189f9de5ea48a3df19234b910cb
+      internalID: -927372321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_43
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ee8fe499f786e439ef4e3c3ea7606a
+      internalID: -894201831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_44
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1931e08153d90429c1f9fe45292087
+      internalID: -79469302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_45
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83256fb13587e2469c9cef771fbb008
+      internalID: -742084505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_46
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7754e3b034bb1714b9a1e5471618a67f
+      internalID: 739202806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_47
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 480
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e2e5694f5f6de4fb6067d430aface0
+      internalID: -1889507191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_48
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c828681d317234418544d112adeabf5
+      internalID: 1051868422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_49
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984a63dc4c846e249873dba7f120b55e
+      internalID: 612170107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_50
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68d09473c7d7c42bcc7d89a27c3e79
+      internalID: 837752110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_51
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1268279d33419fe419dc3d73b1b85754
+      internalID: -941529424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_52
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268b6e70768b7504d93985a164313adb
+      internalID: -1232807470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_53
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2346c5cb622d1cd4f9af364f1563741b
+      internalID: 1387225878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_54
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431ac8b66b6a76c49b16d2ae369f8c73
+      internalID: -1032362284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_55
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 240
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d18c943d9d2a94cbf98ab3924c299c
+      internalID: 2084235317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_56
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5439de22b1369b944a3a62b35120c792
+      internalID: -313091733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7abdb334bc67046adbf07435e4a083
+      internalID: -1276355705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_58
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b37f0983564ec54ca4ae537a6c6b944
+      internalID: 324763007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_59
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f51927687d1806478d8ccb4b2410839
+      internalID: -884638008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_60
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eae42c192e9d0f42b9b4897a8cad644
+      internalID: -708942606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_61
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4244aec968974bc40b54cefb7367fc1d
+      internalID: -1716118299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_62
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac361fdff8a73c94c8bca7162df67a50
+      internalID: -1362501773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kryss-ikari-old-man-full-sheet-export_63
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 0
+        width: 189
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b13b3bd148ef844ba07df73b4f7fa82
+      internalID: -371842758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kryss-ikari-old-man-full-sheet-export_5: 1009203903
+      kryss-ikari-old-man-full-sheet-export_15: -198085618
+      kryss-ikari-old-man-full-sheet-export_61: -1716118299
+      kryss-ikari-old-man-full-sheet-export_1: -1826980873
+      kryss-ikari-old-man-full-sheet-export_33: -1027525490
+      kryss-ikari-old-man-full-sheet-export_37: 1668332709
+      kryss-ikari-old-man-full-sheet-export_51: -941529424
+      kryss-ikari-old-man-full-sheet-export_56: -313091733
+      kryss-ikari-old-man-full-sheet-export_32: 173906776
+      kryss-ikari-old-man-full-sheet-export_45: -742084505
+      kryss-ikari-old-man-full-sheet-export_34: -1709201512
+      kryss-ikari-old-man-full-sheet-export_11: 59802213
+      kryss-ikari-old-man-full-sheet-export_28: 1589003361
+      kryss-ikari-old-man-full-sheet-export_42: -927372321
+      kryss-ikari-old-man-full-sheet-export_47: -1889507191
+      kryss-ikari-old-man-full-sheet-export_25: -1787062404
+      kryss-ikari-old-man-full-sheet-export_10: 1588090250
+      kryss-ikari-old-man-full-sheet-export_44: -79469302
+      kryss-ikari-old-man-full-sheet-export_48: 1051868422
+      kryss-ikari-old-man-full-sheet-export_35: -210145977
+      kryss-ikari-old-man-full-sheet-export_21: 1540630177
+      kryss-ikari-old-man-full-sheet-export_55: 2084235317
+      kryss-ikari-old-man-full-sheet-export_31: 2021213517
+      kryss-ikari-old-man-full-sheet-export_40: 424009967
+      kryss-ikari-old-man-full-sheet-export_50: 837752110
+      kryss-ikari-old-man-full-sheet-export_17: -905022762
+      kryss-ikari-old-man-full-sheet-export_36: 1147632620
+      kryss-ikari-old-man-full-sheet-export_30: -1012734958
+      kryss-ikari-old-man-full-sheet-export_60: -708942606
+      kryss-ikari-old-man-full-sheet-export_18: -2122856030
+      kryss-ikari-old-man-full-sheet-export_9: 650071596
+      kryss-ikari-old-man-full-sheet-export_19: 409035195
+      kryss-ikari-old-man-full-sheet-export_49: 612170107
+      kryss-ikari-old-man-full-sheet-export_52: -1232807470
+      kryss-ikari-old-man-full-sheet-export_13: 33929223
+      kryss-ikari-old-man-full-sheet-export_20: -107234638
+      kryss-ikari-old-man-full-sheet-export_59: -884638008
+      kryss-ikari-old-man-full-sheet-export_6: -1847141749
+      kryss-ikari-old-man-full-sheet-export_39: -1047156771
+      kryss-ikari-old-man-full-sheet-export_27: -1174913554
+      kryss-ikari-old-man-full-sheet-export_12: -1785392140
+      kryss-ikari-old-man-full-sheet-export_7: 153243701
+      kryss-ikari-old-man-full-sheet-export_29: -918613752
+      kryss-ikari-old-man-full-sheet-export_24: 1821220798
+      kryss-ikari-old-man-full-sheet-export_22: 1819142576
+      kryss-ikari-old-man-full-sheet-export_43: -894201831
+      kryss-ikari-old-man-full-sheet-export_58: 324763007
+      kryss-ikari-old-man-full-sheet-export_23: 824080602
+      kryss-ikari-old-man-full-sheet-export_26: 1229405737
+      kryss-ikari-old-man-full-sheet-export_2: 715104607
+      kryss-ikari-old-man-full-sheet-export_62: -1362501773
+      kryss-ikari-old-man-full-sheet-export_3: -1846322603
+      kryss-ikari-old-man-full-sheet-export_4: -1100837611
+      kryss-ikari-old-man-full-sheet-export_63: -371842758
+      kryss-ikari-old-man-full-sheet-export_57: -1276355705
+      kryss-ikari-old-man-full-sheet-export_53: 1387225878
+      kryss-ikari-old-man-full-sheet-export_16: 2044708011
+      kryss-ikari-old-man-full-sheet-export_46: 739202806
+      kryss-ikari-old-man-full-sheet-export_14: 1856051992
+      kryss-ikari-old-man-full-sheet-export_0: 1337917515
+      kryss-ikari-old-man-full-sheet-export_8: 2011275546
+      kryss-ikari-old-man-full-sheet-export_54: -1032362284
+      kryss-ikari-old-man-full-sheet-export_38: -1793069805
+      kryss-ikari-old-man-full-sheet-export_41: 1761314215
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

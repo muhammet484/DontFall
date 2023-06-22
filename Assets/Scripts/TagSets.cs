@@ -14,6 +14,5 @@ using UnityEngine;
 /// </summary>
 public class TagSets
 {
-    public HashSet<GameObject> Interactable = new HashSet<GameObject>();
-    public HashSet<GameObject> Attackable = new HashSet<GameObject>();
+    public HashSet<GameObject> DynamicObstacle = new HashSet<GameObject>();
 }

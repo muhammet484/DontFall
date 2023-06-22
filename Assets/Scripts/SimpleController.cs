@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SimpleController : MonoBehaviour
 {
@@ -10,14 +11,29 @@ public class SimpleController : MonoBehaviour
 
     private bool isGrounded;
 
-    SimpleInventory Inventory;
+    SimplePlayerInventory Inventory;
+
+    [SerializeField] UnityEvent OnTwiceJump = new UnityEvent();
+
+    [Header("Editor only")]
+    [SerializeField] int InputForTwiceJump;
+    [EButton]
+    void SetTwiceJump()
+    {
+        GameManager.Instance.PlayerInventory.TwiceJumpAmount = InputForTwiceJump;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        Inventory = GameManager.Instance.SimpleInventory;
+        Inventory = GameManager.Instance.PlayerInventory;
 
         //ignore trigger colliders for "isGrounded"s detection
         Physics2D.queriesHitTriggers = false;
+
+        OnTwiceJump.AddListener(() => {
+            print("Twice jump used. Twice jump amount: " + Inventory.TwiceJumpAmount);
+        });
     }
 
     // Update is called once per frame
@@ -29,7 +45,6 @@ public class SimpleController : MonoBehaviour
         v.x = x * speed;
 
         rigidbody.velocity = v;
-
 
     }
 
@@ -50,9 +65,15 @@ public class SimpleController : MonoBehaviour
 
             //is this twice jump? yes, if player is on air
             if (!isGrounded)
+            {
                 Inventory.TwiceJumpAmount--;
+                OnTwiceJump.Invoke();
+            }
 
             rigidbody.velocity = v;
         }
     }
+
+
+
 }

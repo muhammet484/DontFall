@@ -1,0 +1,3 @@
+Sağ üstte bir yol, sol üstte bir yol, sağ aşağıda gizli yol o portala gidiyor.
+
+Sağ üstteki yol yadigar kılıca, sol üstteki kısa yol ikili zıplamaya gidiyor.

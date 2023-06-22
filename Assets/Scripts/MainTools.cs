@@ -1,5 +1,9 @@
+
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 /// <summary>
 /// This class contains simple static function tools I made.
@@ -275,5 +279,28 @@ public static class MainTools
         if (!result && warn)
             Debug.LogError(_object + " is null");
         return result;
+    }
+
+
+    public static Vector2 GetBottomOfCamera()
+    {
+        Camera mainCamera = Camera.main;
+        Vector2 bottomLeft = mainCamera.ViewportToWorldPoint(new Vector3(0, 0, mainCamera.nearClipPlane));
+        Vector2 bottomRight = mainCamera.ViewportToWorldPoint(new Vector3(1, 0, mainCamera.nearClipPlane));
+        return new Vector2((bottomLeft.x + bottomRight.x) / 2, bottomLeft.y);
+    }
+
+    // Fare ile týklanan noktanýn Vector2 koordinatlarýný döndüren fonksiyon
+    public static Vector2 GetMouseClickPosition()
+    {
+        Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        return new Vector2(mousePosition.x, mousePosition.y);
+    }
+
+    public static IEnumerator runAFunctionAfterXSeconds(float X,Action action)
+    {
+        MonoBehaviour.print("running ienumarator");
+        yield return new WaitForSeconds(X);
+        action();
     }
 }

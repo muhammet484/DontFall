@@ -2,21 +2,26 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CollectableObject : MonoBehaviour
 {
     [SerializeField] protected ParticleSystem[] particles;
 
+    [SerializeField]UnityEvent OnCollectEvent = new UnityEvent();
+
     HashSet<Action> OnCollect = new HashSet<Action>();
     protected void AddOnCollect(Action action) { OnCollect.Add(action); }
     protected void RemoveOnCollect(Action action) { OnCollect.Remove(action); }
 
-    protected SimpleInventory Inventory;
+    protected SimplePlayerInventory Inventory;
 
     // Start is called before the first frame update
     protected void Start()
     {
-        Inventory = GameManager.Instance.SimpleInventory;
+        AddOnCollect(OnCollectEvent.Invoke);
+
+        Inventory = GameManager.Instance.PlayerInventory;
 
         //Erase object
         AddOnCollect(() =>

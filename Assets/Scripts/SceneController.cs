@@ -32,6 +32,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(name);
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     //debug purpose
     public void UIPrint(string something)
     {
