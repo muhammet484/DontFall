@@ -23,7 +23,7 @@ public class ConversationController : MonoBehaviour
                 if (Input.GetButtonDown("Submit"))
                 {
                     InteractSpeakText.SetActive(false);
-
+                    
                     NPCConversation conversation;
                     if (ConversationStartCount < conversations.Length)
                         conversation = conversations[ConversationStartCount];

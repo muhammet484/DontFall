@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     public void AddOnPlayerDie(Action action) { OnPlayerDie.Add(action); }
     public void RemoveOnPlayerDie(Action action) { OnPlayerDie.Remove(action); }
 
-    [HideInInspector]public GameStatistics GameStatistics;
+    [HideInInspector] public GameStatistics GameStatistics;
     [HideInInspector] public SimplePlayerInventory PlayerInventory;
 
     public SceneController SceneController;
