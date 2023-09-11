@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,10 @@ public class SimpleController : MonoBehaviour
 
     [SerializeField] UnityEvent OnTwiceJump = new UnityEvent();
 
+    Action deactivate;
+
+    [SerializeField] GameObject smokeEffect;
+
     [Header("Editor only")]
     [SerializeField] int InputForTwiceJump;
     [EButton]
@@ -22,18 +27,22 @@ public class SimpleController : MonoBehaviour
     {
         GameManager.Instance.PlayerInventory.TwiceJumpAmount = InputForTwiceJump;
     }
+    private void Awake()
+    {
+        smokeEffect.transform.parent = null;
+        GameManager.Instance.AddOnPlayerDie(() => { smokeEffect.transform.position = transform.position;
+            smokeEffect.SetActive(true);
+        });
+        deactivate = () => { gameObject.SetActive(false); };
+        GameManager.Instance.AddOnPlayerLoose(deactivate);
 
+    }
     // Start is called before the first frame update
     void Start()
     {
         Inventory = GameManager.Instance.PlayerInventory;
-
         //ignore trigger colliders for "isGrounded"s detection
         Physics2D.queriesHitTriggers = false;
-
-        OnTwiceJump.AddListener(() => {
-            print("Twice jump used. Twice jump amount: " + Inventory.TwiceJumpAmount);
-        });
     }
 
     // Update is called once per frame
@@ -73,7 +82,4 @@ public class SimpleController : MonoBehaviour
             rigidbody.velocity = v;
         }
     }
-
-
-
 }

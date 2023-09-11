@@ -26,7 +26,8 @@ public class UIButtonsHandler : MonoBehaviour
 
     public void OnExitButtonClick()
     {
-        Application.Quit();
+        if (Application.platform != RuntimePlatform.WebGLPlayer)
+            Application.Quit();
     }
     public void OnStartButtonClick()
     {

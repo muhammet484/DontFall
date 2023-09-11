@@ -42,7 +42,14 @@ public class GameManager : MonoBehaviour
 
     private int _playerHealthCount = 3;
     public int GetPlayerHealthCount() { return _playerHealthCount; }
-    public int IncreasePlayerHealthCount(int Quantity) { 
+
+    /// <summary>
+    /// Increases the player health.
+    /// Quantity must be must greater than 1
+    /// </summary>
+    /// <returns>Player Health Count</returns>
+    public int IncreasePlayerHealthCount(int Quantity) {
+        if (Quantity < 1) return _playerHealthCount;
         _playerHealthCount += Quantity;
         foreach (var act in OnPlayerHealthIncrease)
             act();
